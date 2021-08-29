@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { 
     title: 'Rhaim',
-    subtitle: 'Você vai amar!'
+    subtitle: 'Bem vindos ao site do '
 
 
 });
